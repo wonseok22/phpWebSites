@@ -1,0 +1,25 @@
+/* 여백 초기화 */
+body, div, dl, dt, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, textarea, p, blockquote, th, td, input, select, button, figure, figcaption, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {margin: 0; padding: 0;}
+
+/* 가로모드 글씨 확대 초기화 */
+html {-ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+
+/* 시멘틱 태그 블록화 */
+aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
+section, div {display: block;}
+
+/* 폰트 초기화 */
+body, button, input, select, table,
+textarea {color: #222; font-family: 'NexonLv1Gothic', 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 고딕', dotum, 돋움;}
+
+/* 링크 초기화 */
+a {color: #222; text-decoration: none;}
+
+/* 목록 초기화 */
+ol, ul, li {list-style: none;}
+
+/* 스타일 초기화 */
+em, address {font-style: normal;}
+img, fieldset, button {border: 0;}
+table {border-collapse: collapse; border-spacing: 0;}

@@ -1,0 +1,121 @@
+.community {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #dcdcdc;
+}
+/* .community__title {
+    font-size: 50px;
+    margin-top: 200px;
+}
+.community__desc {
+    font-size: 25px;
+    margin-top: 200px;
+} */
+.community-container {margin-top: 120px; max-width: 1200px;width: 100%;margin: 0 auto;}
+.community__inner {width: 1200px; margin: 0 auto;}
+.community__search {margin-bottom: 80px;}
+.community__search .search {border: 1px solid #c6c6c6; padding: 15px 30px; border-radius: 50px; min-width: 300px;}
+.community__search .button {width: 47px; height: 47px; background: url(../img/community/search.svg) no-repeat center; text-indent: -9990px; background-size: 20px; border-radius: 50%; cursor: pointer; transition: box-shadow 0.3s;}
+.community__search .button:hover {box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.3);}
+.community__cont {
+    display: block;
+    width: 100%;
+    border-top: 2px solid #0dbcaf;
+    border-collapse: collapse;
+}
+.community__cont .community {display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #dcdcdc;}
+.community__header {width: 160px;}
+.community__header a {display: block;
+    width: 100%;
+    padding-top: 62.5%;
+    /* background-size: cover; */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.community__body {margin: 0 30px; width: 50%; text-align-last: left;}
+.community__cate {    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+    padding: 3px 10px !important;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background: #e6f8f7;
+    color: #0dbcaf;
+    margin-bottom: 18px;
+    margin: 0 12px;}
+.community__title {overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;}
+.community__info {display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: #777;}
+.community__info a {color: #32a69f; text-decoration: underline; text-underline-position: under; font-weight: 600; font-size: 18px; margin-left: 10px;}
+.community__info .author {    margin-right: 15px;
+    font-weight: 700;
+    color: #0dbcaf; padding: 5px 0;
+margin-top: 20px;}
+.community__info .author > div {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 36px;
+}
+.community__info .author img {
+    border-radius: 100%;
+}
+.community__footer {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 16px;
+    font-weight: 300;
+    color: #999;
+}
+.community__footer span, .community__footer div {margin-top: 10px;}
+.footer__info {
+    margin-top: 30px;
+    margin: 0 12px;
+}
+.community__footer span {
+    padding: 0 8px;
+}
+.like {}
+.community__info span a {vertical-align: 4px;}
+/* .community__info .modify {float: right; padding-left: 5px;}
+.community__info .delete {float: right;} */
+.community__btn {text-align: right; margin-bottom: 40px;}
+.community__btn a {background: #000; color: #fff; border-radius: 50px; display: inline-block; padding: 10px 30px; margin-top: 30px;}
+.community__pages {margin-top: 100px;}
+.community__pages li {display: inline;}
+.community__pages li a {width: 40px; height: 40px; border: 1px solid #000; border-radius: 50%; text-align: center; line-height: 40px; font-size: 14px; display: inline-block;}
+.community__pages li.active a {background: #000; color: #fff;}
+/* 커뮤니티 WRITE 페이지 */
+.community__write {text-align: left;}
+.community__write label {display: block;margin-bottom: 5px;}
+.community__write input {width: 100%;background: #ededed;border: 0;padding: 20px;margin-bottom: 20px;border-radius: 5px;}
+.community__write select {width: 20%;background: #ededed;border: 0;padding: 10px;margin-bottom: 20px;border-radius: 5px;}
+.community__write textarea {width: 100%;background: #ededed;border: 0;padding: 20px;margin-bottom: 20px;border-radius: 5px;resize: none;height: 400px;}
+.community__write button {background: #000;color: #fff;border-radius: 50px;display: inline-block;padding: 10px 30px; float: right;}
+.community img {width: 200px; height: 120px; background-repeat: no-repeat;}
+
+.btnflex {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}

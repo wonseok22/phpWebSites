@@ -1,0 +1,19 @@
+/* login */
+#contents {margin-top: 120px;}
+.container { width: 492px; height: 600px; margin: 0 auto; margin-top: 170px; border: 1px solid #000; border-radius: 20px; display: flex; justify-content: center; margin-bottom: 50px;}
+.title__box {border-bottom: 1px solid #000; width: 337px; height: 72px;}
+.title__box h2 {font-size: 30px; margin-top: 30px; text-align: center;}
+.login-box {margin-top: 30px;}
+.login-box .logininput {width: 317px; height: 50px; margin-top: 20px; padding-left: 20px;}
+.login-box .checkbox {width: 18px; height: 18px;}
+.check {display: flex; margin-top: 20px;}
+.check p {font-size: 16px; margin-left: 10px;}
+.join__box, .idpass__box {font-size: 14px; margin-top: 20px; margin-bottom: 20px; display: inline-block;}
+.idpass__box{float:right;}
+.line__box {margin: 0 auto; width: 70%; height: 0px;border-bottom: 2px solid #000; margin-top: 100px;}
+#loginBtn {display: block; width: 335px; height: 43px; margin-top: 15px; border: 1px solid #000; font-size: 16px; display: flex; align-items: center; justify-content: center;}
+#loginBtn img {margin-right: 5px;}
+#loginBtn a {vertical-align: middle;}
+.join-main {background: #FFF9C4;}
+.join-kakao {background: #FFFF00;}
+.join-naver {background: #03C75A;}

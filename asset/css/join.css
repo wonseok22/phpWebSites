@@ -1,0 +1,36 @@
+/* join */
+.join01_box {width: 65%; margin: 0 auto;}
+.join01_box form {margin-top: 10px;}
+.joinform {display: flex; align-items: center; flex-direction: column;}
+.joinform h3 {font-family: 'NotoSansKR'; text-align: center; margin-top: 70px; font-size: 30px;}
+.joinform .joinlist {margin: 0 auto; width: 550px; display: flex; justify-content: space-between; margin-top: 60px; font-size: 20px; }
+.joinform .joinlist span.active {border-bottom: 2px solid #000;}
+.joinform .joinend {text-align: center; font-size: 40px; font-weight: bold; margin-top: 50px;}
+.joinform .joinend-form {margin: 0 auto; text-align: center; width: 600px; margin-top: 15px; border: 3px solid #000; padding: 70px 0 50px 0;}
+
+.check1 {margin-top: 50px;}
+.checkbox1 {width: 20px; height: 20px; vertical-align: -5.5px; margin-top: 30px; }
+.join01_box label {font-size: 14px;}
+.checkdesc {background: #ffffff; border: 1px solid rgb(133, 133, 133); padding: 30px; white-space: wrap; line-height: 2.0;
+color: rgb(122, 122, 122); }
+.checkdesc label { color:#333; font-weight: bold; font-size: 16px;}
+#footer {width: 100%; height: 100px; margin-top: 150px; background: #000;}
+.checktitle {font-size: 20px; margin-bottom: 10px;}
+.checkstyle {margin-top: 20px;}
+.joinform .btn{text-align: center; margin-bottom: 50px;}
+.nextbtn_box {display: flex; justify-content: center; margin-bottom: 50px;}
+.nextbtn {font-size: 16px; background: #e1f3f3; padding: 15px; display: inline-block; width: 30%; transition: all 0.3s; cursor: pointer; margin-top: 50px; border: 1px solid rgb(133, 133, 133); color: #555; font-weight: 300;}
+.nextbtn:hover{background: #32a69f; color: #fff;}
+
+.joininput {width: 600px; height: 800px; border: 2px solid #999; margin: 0 auto; margin-top: 80px; background: #f9f9f9; border-radius: 30px; padding: 70px 100px; margin-bottom: 50px;}
+.joinBox label {display: block; font-size: 18px; margin-bottom: 5px; margin-left: 10px; margin-top: 30px;}
+.joinBox input {margin: 0 auto; border: 1px solid #DFDFDF; width: 80%; height: 25px; padding: 15px;}
+.joinBox .comment {padding-left: 10px; padding-top: 10px;}
+.join-submit {margin: 0 auto; font-size: 16px; background: #FFF9C4; display: block; width: 200px; height: 50px; transition: all 0.3s; cursor: pointer; margin-bottom: 50px; margin-top: 20px;}
+.join-submit:hover {box-shadow: inset 0 0 0 2px #222; background: #fff;}
+.smallbox input{width: 300px;}
+.join-button, .joinBox a {background: #fff; border: 1px solid #999; padding: 2px 6px; border-radius: 10px; width: 150px; margin-left: 5px; display: inline;}
+.join03box {border: 1px solid #000; margin-top: 100px; width: 50%; display: flex; align-items: center; flex-direction: column;}
+.join03box p {font-size: 26px; margin-bottom: 50px;}
+.join03box a {display: inline-block; text-decoration: none; color: #555; font-size: 24px; margin-top: 15px; border: 1px solid rgb(133, 133, 133); padding: 10px 20px 10px 20px; background: #e1f3f3; margin-bottom: 30px;}
+.join03box a:hover {color: #fff; background: #32a69f;}

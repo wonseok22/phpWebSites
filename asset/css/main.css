@@ -1,0 +1,45 @@
+.mainpage {padding: 120px 0;}
+.mainpage .section__title {font-size: 50px; margin-bottom: 20px; font-weight: 400;}
+.mainpage .section__desc {font-size: 22px; line-height: 1.5; font-weight: 300; color: #777; margin-bottom: 80px;}
+.mainpage .community__cont {display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;}
+.mainpage .community {width: 32%; display: block; padding: 20px 0 92px 0;}
+.mainpage .community__header a{padding-bottom: 66%;
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat; padding-bottom: 0;}
+.mainpage .community__body {position: relative; margin: 10px 0 0 0; width: 90%;}
+.mainpage .community__info {position: absolute; bottom: -107px; left: 0;}
+.mainpage .community__title a {width: 384px;}
+.mainpage .community__footer {position: relative;}
+.mainpage .community__cate {position: absolute; left: -8px; top: 10px;}
+.mainpage .like, .mainpage .view, .mainpage .date {position: absolute;}
+.mainpage .like {right: -7px; bottom: -24px;}
+.mainpage .view {right: 101px; bottom: -75px;}
+.mainpage .date {right: -7px; bottom: -75px;}
+
+.mainpage .board__inner {display: flex; justify-content: space-between;}
+.mainpage .notice {width: 49%; position: relative;}
+.mainpage .notice h4 {    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+text-align-last: left;
+border-bottom: 2px solid #32a69f;}
+.mainpage .notice .more {position: absolute; top: 6px; right: 20px;}
+.mainpage .notice li {display: flex; justify-content: space-between; position: relative; padding: 5px 10px 5px 57px;}
+.mainpage .notice li::before {
+    content: '';
+    position: absolute;
+    left: 39px;
+    top: 11px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #000;
+}
+.mainpage .notice li a:hover {text-decoration: underline;}

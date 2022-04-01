@@ -1,0 +1,18 @@
+header {position: fixed; top: 0; width: 100%; z-index: 9999;}
+.member {width: 100%; height: 40px; background: #e1f3f3; font-size: 14px; text-align: right;}
+.member ul {display: inline-block; margin-top: 6px; margin-right: 15px;}
+.member ul li:first-child {margin-right: -10px;}
+.member li {display: inline; padding-left: 5px; border-radius: 20px;}
+.member li img {width: 20px; height: 20px; border-radius: 70%; margin: 3px 2px 0 0;}
+.member li a {color: #555; font-weight: 300; vertical-align: middle;}
+.member .header-join {margin-top: 12px; vertical-align: auto;}
+.menu {background: #32a69f;}
+.menu ul {display: flex; align-items: center; justify-content: center;}
+.menu li {margin: 0 70px; height: 80px; line-height: 5;}
+.menu ul li:nth-child(1) {margin-left: -10px;}
+.menu ul li:nth-child(2) {margin-right: 100px;}
+.menu ul li:nth-child(3) {margin-left: 100px;}
+.header-join {margin-right: 10px;}
+.menu li a {font-size: 20px; font-weight: 100; color: #fff; vertical-align: middle; line-height: 1;}
+.logo {position: fixed; top: 20px; left: calc(50% - 60px)}
+.logo img {width: 120px; height: 120px;}

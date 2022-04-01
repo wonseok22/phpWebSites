@@ -1,0 +1,51 @@
+#board-contents {position: relative;}
+.board-container {max-width: 1200px; margin: 0 auto; /* background-color: rgba(0,0,0,0.3); */}
+.category {z-index: 2; margin: -40px auto 0; max-width: 800px; width: 100%; margin-top: 90px;}
+.category ul {display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 60px;}
+.category li {border-bottom: 2px solid #32a69f; flex: 1;}
+.category li a {padding-top: 20px; padding-bottom: 20px; font-size: 26px; background: #fff; color: #32a69f; font-weight: 700; width: 100%; display: inline-flex; align-items: center; justify-content: center; line-height: 1.5;}
+.category li.active a {background: #32a69f; color: #fff;}
+.board__search fieldset {display: flex; justify-content: flex-end; margin-bottom: 20px;}
+.board__search .search-form {border: 1px solid #c6c6c6; padding: 7px 20px; border-radius: 5px;}
+.board__search .search-option {border: 1px solid #c6c6c6; padding: 6px 20px; border-radius: 5px; margin-left: 5px;}
+.board__search .search-btn {border: 1px solid #c6c6c6; padding: 7px 20px; border-radius: 5px; margin-left: 5px; background-color: #fff;}
+.board__search .search-btn.black {background-color: #32a69f; padding: 6px 20px; color: #fff; font-size: 14px; border-color: #32a69f; vertical-align: -5px;}
+.board__search .result {text-align-last: left; padding-bottom: 10px;}
+.board__table  {margin: auto; max-width: 1200px; padding: 0;}
+.board__table table {width: 100%; background: #fff; border-top: 2px solid #0dbcaf; border-bottom: 2px solid #ddd; border-collapse: collapse;}
+.board__table table th {padding: 20px 10px; color: #333; background-color: #fbfbfb;}
+.board__table table td {padding: 15px 10px; color: #555; background-color: #fff; font-size: 16px; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd;}
+.board__table table td {vertical-align: top;}
+.board__table.hover table tr {transition: all 0.3; cursor: pointer;}
+.board__table.hover table tr:hover {background-color: #ededed;}
+.board__table table .left {text-align-last: left; padding-left: 20px;}
+.board__table table .height {height: 400px; line-height: 1.6;}
+.board__pages {margin-top: 40px;}
+.board__pages ul {display: flex; justify-content: center;}
+.board__pages ul li a {display: block; border: 1px solid #eee; padding: 14px 10px; font-size: 14px; margin-left: -1px}
+.board__pages ul li.active a {background: #32a69f; color: #fff;}
+.board-btn {float: right; margin-top: 20px;}
+.board-btn a, .board-btn button {padding: 9px 20px; background: #32a69f; color: #fff; border-radius: 5px; display: inline-block; font-size: 14px; cursor: pointer;}
+.board__modify {text-align-last: left; margin-top: 120px;}
+.board__modify label {display: block; margin-bottom: 5px;}
+.board__modify input {width: 100%; background: #ededed; border: 0; padding: 20px; margin-bottom: 20px; border-radius: 5px;}
+.board__modify textarea {width: 100%; background: #ededed; border: 0; padding: 20px; margin-bottom: 20px; resize: none; height: 400px; border-radius: 5px;}
+.board__btn {float: right; margin-top: 20px;}
+.board__btn a,
+.board__btn button {background: #32a69f; padding: 9px 20px; border-radius: 5px; color: #fff; display: inline-block; font-size: 14px; cursor: pointer;}
+
+.faqWrap {width: 1200px; margin: 0 auto; cursor:pointer;}
+.faqWrap li {margin: 20px 0;}
+.faqWrap p {display: inline;}
+.questions {text-align-last: left; display: flex;}
+.questions span {padding: 19px 19px 15px 19px; text-align: center; font-size: 18px; font-weight: 800; color: #0dbcaf; border: 1px solid #0dbcaf;}
+.questions p {position: relative; padding: 18px 100px 15px 20px; font-size: 18px; font-weight: 700; text-align: left; color: #0dbcaf; border-top: 1px solid #ddd; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; width: 90%;}
+.questions p::before {content: ""; position: absolute; top: 0; right: 30px; bottom: 0; margin: auto; width: 16px; height: 10px; background: url(../../asset/img/arrow_down.png) no-repeat 50%; transition: transform 0.3s; transform: skewX(0deg);}
+.questions p.changed::before {transform: skewX(180deg);}
+.ask {text-align-last: left; margin-top: 10px; border: 1px solid #ddd; line-height: 5; display: none;}
+.ask.show {display: block;}
+.ask span {margin-left: 90px; margin-right: 10px; flex-basis: 20px; font-size: 16px; color: #555; font-weight: 700;}
+.ask p {font-size: 16px; color: #555; font-weight: 300;}
+strong {color: rgb(230, 0, 0);}
+
+.board__inner {}
