@@ -4,7 +4,6 @@ php로 구현한 반려동물 정보 제공 및 공유 커뮤니티 사이트입
 
 http://linecom1234.dothome.co.kr/project/pages/main.php
 
-
 # 주요 기능
 
 - 회원가입, 로그인, 마이페이지 구현
